@@ -47,8 +47,7 @@ while True:
     if opcion == 5:
         print('saliendo del programa..')
         exit()
-    else:
-        print('Opcion no valida, intente de nuevo')
+
 
 
 
