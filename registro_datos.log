@@ -13,3 +13,47 @@
             Id Usuario: 2, Username: kgonzales,
             Password: 1234
         
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            Id Usuario: 1, Username: jperez,
+            Password: 1234
+        
+04:56:00 PM: INFO [MenuAppUsuario.py:21] 
+            Id Usuario: 2, Username: kgonzales,
+            Password: 1234
+        
+04:56:22 PM: INFO [UsuarioDao.py:31] Usuario a insertar nicolas, contraseña 1234
+04:56:22 PM: ERROR [CursorDelPool.py:23] Ocurrio un error, realizando rollback: 'str' object has no attribute 'username' <class 'AttributeError'> <traceback object at 0x7626788143c0>
+05:14:25 PM: INFO [MenuAppUsuario.py:23] 
+            Id Usuario: 1, Username: jperez,
+            Password: 1234
+        
+05:14:25 PM: INFO [MenuAppUsuario.py:23] 
+            Id Usuario: 2, Username: kgonzales,
+            Password: 1234
+        
+05:14:41 PM: ERROR [CursorDelPool.py:23] Ocurrio un error, realizando rollback: name 'password' is not defined <class 'NameError'> <traceback object at 0x77f315b02880>
+05:15:16 PM: ERROR [CursorDelPool.py:23] Ocurrio un error, realizando rollback: name 'password' is not defined <class 'NameError'> <traceback object at 0x7608ebda9600>
+05:15:35 PM: INFO [UsuarioDao.py:31] Usuario a insertar 
+            Id Usuario: None, Username: nicolas,
+            Password: 456
+        
+05:15:35 PM: INFO [UsuarioDao.py:35] Usuario insertado correctamente: 
+            Id Usuario: None, Username: nicolas,
+            Password: 456
+        
+05:15:35 PM: INFO [MenuAppUsuario.py:31] Usuarios insertados: 
+            Id Usuario: None, Username: nicolas,
+            Password: 456
+        
+05:15:41 PM: INFO [MenuAppUsuario.py:23] 
+            Id Usuario: 1, Username: jperez,
+            Password: 1234
+        
+05:15:41 PM: INFO [MenuAppUsuario.py:23] 
+            Id Usuario: 2, Username: kgonzales,
+            Password: 1234
+        
+05:15:41 PM: INFO [MenuAppUsuario.py:23] 
+            Id Usuario: 3, Username: nicolas,
+            Password: 456
+        

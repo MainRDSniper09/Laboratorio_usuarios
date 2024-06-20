@@ -38,7 +38,7 @@ class UsuarioDao:
 
     # Creacion de metodo actualizar
     @classmethod
-    def actualizar(cls,usuario):
+    def actualizar(cls, usuario):
         with CursorDelPool() as cursor:
             valores = (usuario.id_usuario, usuario.username, usuario.password)
             cursor.execute(cls._ACTUALIZAR, valores)
