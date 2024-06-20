@@ -8,6 +8,10 @@ Se pueden usar las consultas basicas, siendo estas:
 - UPDATE
 - DELETE
 
+El proyecto fue realizado siguiendo el siguiente Diagrama UML
+
+![UML](https://github.com/MainRDSniper09/Laboratorio_usuarios/blob/master/UML/laboratorio_usuarios.png)
+
 ## Caracteristicas
 - POO
 - Postgresql and CRUD
