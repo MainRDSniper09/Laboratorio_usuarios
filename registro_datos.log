@@ -3,3 +3,5 @@
             Id Usuario: 1, Username: MainRDSniper09,
             Password: 1234
         
+02:12:42 PM: INFO [CursorDelPool.py:36] [(1, 'jperez', '1234'), (2, 'kgonzales', '1234')]
+02:12:42 PM: INFO [CursorDelPool.py:28] Se realizo commit de la transaccion
